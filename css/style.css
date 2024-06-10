@@ -1,0 +1,28 @@
+body {
+    background-color: linen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: maroon;
+    margin-left: 20px;
+    margin-bottom:5px;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+ul{
+    margin:5px;
+}
+
+li {
+    margin-left: 40px;
+    font-size: 20px;
+}
+details{
+    
+    margin-left:90px;
+}
+summary{
+    cursor: pointer;
+    
+}
