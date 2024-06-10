@@ -1,0 +1,39 @@
+[{
+        "datetime": {
+            "date": "2024-06-06 09:41:12.444979",
+            "timezone_type": 3,
+            "timezone": "Europe\/London"
+        },
+        "domain": "https:\/\/j5g5test.locahaberandlorn-ramblers.org.uk\/",
+        "action": "dummy feed string",
+        "error": "Dummy error message string",
+        "trace": [{
+                "file": "\/home\/sites\/4b\/0\/0f6c3644ae\/public_html\/j5g5test\/tmp\/regularlabs\/custom_php\/36122_fa596b74dfd10c5fc29b9f607eabce39",
+                "line": 17,
+                "function": "notifyError",
+                "class": "RErrors",
+                "type": "::"
+            }, {
+                "file": "\/home\/sites\/4b\/0\/0f6c3644ae\/public_html\/j5g5test\/libraries\/regularlabs\/src\/Php.php",
+                "line": 39,
+                "function": "regularlabs_php_94a93ea04bd1317e391df6290068c8eb"
+            }, {
+                "file": "\/home\/sites\/4b\/0\/0f6c3644ae\/public_html\/j5g5test\/plugins\/system\/sourcerer\/src\/Replace.php",
+                "line": 625,
+                "function": "execute",
+                "class": "RegularLabs\\Library\\Php",
+                "type": "::"
+            }, {
+                "file": "\/home\/sites\/4b\/0\/0f6c3644ae\/public_html\/j5g5test\/plugins\/system\/sourcerer\/src\/Replace.php",
+                "line": 383,
+                "function": "replaceTagsPHP",
+                "class": "RegularLabs\\Plugin\\System\\Sourcerer\\Replace",
+                "type": "::"
+            }, {
+                "file": "\/home\/sites\/4b\/0\/0f6c3644ae\/public_html\/j5g5test\/plugins\/system\/sourcerer\/src\/Replace.php",
+                "line": 258,
+                "function": "replaceTagsByType",
+                "class": "RegularLabs\\Plugin\\System\\Sourcerer\\Replace",
+                "type": "::"
+            }]
+    }]
