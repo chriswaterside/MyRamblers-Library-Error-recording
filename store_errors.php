@@ -1,4 +1,5 @@
 <?php
+
 define('ERROR_FILE', 'data/errors.json');
 $test = false;
 error_reporting(E_ALL);
@@ -8,7 +9,6 @@ define('BASE_PATH', dirname(realpath(dirname(__FILE__))));
 chdir($exepath);
 require 'classes/autoload.php';
 spl_autoload_register('autoload');
-
 
 Logfile::create("logfiles/errors");
 Logfile::writeWhen("Start");
@@ -24,6 +24,7 @@ if ($test) {
     $action = $opts->gets("action");
     $error = $opts->gets("error");
     $trace = null;
+  
 } else {
     $domain = $opts->posts("domain");
     $action = $opts->posts("action");
@@ -36,7 +37,6 @@ if ($test) {
 Logfile::writeWhen("Domain: " . $domain);
 Logfile::writeWhen("Action: " . $action);
 Logfile::writeWhen("Error: " . $error);
-Logfile::writeWhen("Trace: " . $trace);
 if ($domain == NULL) {
     Logfile::writeError("Invalid options - no Domain specified");
     http_response_code(400);
